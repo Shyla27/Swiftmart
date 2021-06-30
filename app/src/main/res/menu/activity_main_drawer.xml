@@ -1,0 +1,41 @@
+
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_user"
+                android:title="My Profile" />
+        <item
+                android:id="@+id/nav_wishlist"
+                android:icon="@drawable/ic_wishlist"
+                android:title="Wishlist" />
+        <item
+                android:id="@+id/nav_Cart"
+                android:icon="@drawable/ic_shopping_cart_empty_side_view"
+                android:title="Cart" />
+        <item
+                android:id="@+id/nav_orders"
+                android:icon="@drawable/ic_online_order"
+                android:title="My Orders" />
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                    android:id="@+id/call"
+                    android:icon="@drawable/ic_phone_call"
+                    android:title="Call" />
+            <item
+                    android:id="@+id/nav_email"
+                    android:icon="@drawable/ic_gmail"
+                    android:title="Email" />
+            <item
+                    android:id="@+id/faqs"
+                    android:icon="@drawable/ic_faq"
+                    android:title="FAQs" />
+        </menu>
+    </item>
+
+</menu>
