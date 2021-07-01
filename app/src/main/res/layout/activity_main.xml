@@ -24,4 +24,13 @@
             app:headerLayout="@layout/nav_header_main"
             app:menu="@menu/activity_main_drawer" />
 
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Version 1.0"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="26dp"/>
+
 </androidx.drawerlayout.widget.DrawerLayout>
