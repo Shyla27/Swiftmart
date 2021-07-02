@@ -15,17 +15,18 @@ import com.example.swiftmartco.R;
 import com.example.swiftmartco.viewmodel.Loginviewmodel;
 
 public class Login extends AppCompatActivity {
-    ConstraintLayout signin_page,signup_page;
+   /* ConstraintLayout signin_page,signup_page;
     Button continue_btn, signup_button;
     TextView signin,signup;
     SigninSignupBinding signinSignupBinding;
-    Loginviewmodel loginViewModel;
-
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+   *//* Loginviewmodel loginViewModel;*//*
+    private Loginviewmodel Loginviewmodel;
+*//*
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login); signinSignupBinding = DataBindingUtil.setContentView(this, R.layout.signin_signup);
+        setContentView(R.layout.activity_login); /*signinSignupBinding = DataBindingUtil.setContentView(this, R.layout.activity_login);
 
         signin_page = signinSignupBinding.signinPage;
         signup_page = signinSignupBinding.signupPage;
@@ -58,24 +59,14 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        signin.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                signup_page.setVisibility(View.GONE);
-                signin_page.setVisibility(View.VISIBLE);
-            }
+        signin.setOnClickListener(view -> {
+            signup_page.setVisibility(View.GONE);
+            signin_page.setVisibility(View.VISIBLE);
         });
 
-        signup.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                signin_page.setVisibility(View.GONE);
-                signup_page.setVisibility(View.VISIBLE);
-            }
+        signup.setOnClickListener(view -> {
+            signin_page.setVisibility(View.GONE);
+            signup_page.setVisibility(View.VISIBLE);
         });
-    }
+*/    }
 }
