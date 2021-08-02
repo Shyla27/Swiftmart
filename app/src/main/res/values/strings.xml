@@ -6,4 +6,10 @@
     <string name="forgot_password">forgot_password</string>
     <string name="signup">signup</string>
     <string name="signin">signin</string>
+    <string name="swiftmart_co">SwiftMart.co</string>
+
+    <!--Menu item texts -->
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_notifications">Notifications</string>
 </resources>
